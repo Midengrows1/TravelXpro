@@ -1,1 +1,121 @@
-/*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text01 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.text02 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.text03 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.text04 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.text05 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.text05 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.text06 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  font-family: "Inter";
+}
+
+.wrapper__content {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1 {
+  color: #0600ae;
+}
+.header h1 span {
+  color: #474747;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header__links a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.default-btn {
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #1f39ba;
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+}
+
+.first_bcg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/Group\ first-screen.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+.first-screen {
+  width: 40%;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.first-screen-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.first-screen-content span {
+  color: #1f39ba;
+}
+.first-screen-content p {
+  padding-right: 100px;
+}/*# sourceMappingURL=index.css.map */

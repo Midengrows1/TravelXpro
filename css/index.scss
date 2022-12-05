@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap");
+$orangecolor01: #db6300;
+$orangecolor02: #ea880f;
+$orangecolor03: #eeaa2b;
+$orangecolor04: #ecc170;
+
+$blueColor01: #0600ae;
+$blueColor02: #1f39ba;
+$blueColor03: #3793d8;
+$blueColor04: #7fc2d6;
+
+$black01: #474747;
+$black02: #666666;
+$black03: #cacaca;
+$black04: #e5e5e5;
+.text01 {
+  font-weight: 700;
+  font-size: 60px;
+}
+.text02 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.text03 {
+  font-weight: 700;
+  font-size: 26px;
+}
+.text04 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.text05 {
+  font-weight: 700;
+  font-size: 16px;
+}
+.text05 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.text06 {
+  font-weight: 400;
+  font-size: 14px;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  font-family: "Inter";
+}
+.wrapper__content {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    color: #0600ae;
+
+    span {
+      color: $black01;
+    }
+  }
+}
+.header__links {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  a {
+    text-decoration: none;
+    color: $black02;
+  }
+}
+
+.default-btn {
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: $blueColor02;
+  display: inline-block;
+  color: #fff;
+  font-weight: 700;
+}
+.first_bcg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/Group\ first-screen.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  //   background-size: cover;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+.first-screen {
+  width: 40%;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    span {
+      color: $blueColor02;
+    }
+    p {
+      padding-right:  100px;
+    }
+  }
+}
