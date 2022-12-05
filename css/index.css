@@ -77,13 +77,11 @@
 }
 
 .default-btn {
-  width: 170px;
-  height: 50px;
+  padding: 16px 50px;
   border-radius: 10px;
   outline: none;
   border: none;
   background-color: #1f39ba;
-  display: inline-block;
   color: #fff;
   font-weight: 700;
 }
@@ -102,13 +100,13 @@
 }
 
 .first-screen {
-  width: 40%;
   padding: 100px 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 .first-screen-content {
+  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -118,4 +116,11 @@
 }
 .first-screen-content p {
   padding-right: 100px;
+}
+.first-screen-details {
+  margin: 6em 0px;
+  width: 88%;
+  height: 100px;
+  background-color: #000;
+  border-radius: 16px;
 }/*# sourceMappingURL=index.css.map */
