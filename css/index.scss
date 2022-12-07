@@ -103,7 +103,6 @@ $black04: #e5e5e5;
   height: 100%;
 }
 .first-screen {
-
   padding: 100px 0;
   display: flex;
   justify-content: center;
@@ -125,6 +124,28 @@ $black04: #e5e5e5;
     width: 88%;
     height: 100px;
     background-color: #000;
-    border-radius:16px;
+    border-radius: 16px;
+    &_content {
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding: 25px;
+    }
+  }
+  .details-item {
+    background-color: red;
+    input {
+      padding: 10px;
+      border-radius: 8px;
+      outline: none;
+      border: none;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  .search {
+    display: flex;
+    font-size: 20px;
+    
   }
 }

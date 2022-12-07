@@ -123,4 +123,25 @@
   height: 100px;
   background-color: #000;
   border-radius: 16px;
+}
+.first-screen-details_content {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+.first-screen .details-item {
+  background-color: red;
+}
+.first-screen .details-item input {
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+.first-screen .search {
+  display: flex;
+  font-size: 20px;
 }/*# sourceMappingURL=index.css.map */
