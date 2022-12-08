@@ -30,7 +30,7 @@
   font-size: 16px;
 }
 
-.text05 {
+.text061 {
   font-weight: 400;
   font-size: 16px;
 }
@@ -87,7 +87,7 @@
 }
 
 .first_bcg {
-  width: 100%;
+  width: 100% vw;
   height: 100vh;
   background-image: url(/assets/Group\ first-screen.png);
   background-repeat: no-repeat;
@@ -177,6 +177,9 @@
   align-items: center;
   gap: 30px;
 }
+.second-screen_content_left {
+  padding: 0px 40px;
+}
 .second-screen_content_right {
   width: 100%;
   display: flex;
@@ -204,4 +207,52 @@
   width: 21%;
   padding: 20px;
   font-size: 17px;
+}
+
+.third-screen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.third-screen_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 0 350px;
+  text-align: center;
+  line-height: 30px;
+  color: #666666;
+}
+.third-screen_top h2 {
+  color: #474747;
+}
+.third-screen_bottom {
+  width: 100%;
+  margin-top: 3em;
+}
+.third-screen_bottom-container {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.third-screen .bottom_items {
+  width: 16%;
+  padding: 40px 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  border-radius: 0 0 50px 50px;
+  line-height: 28px;
+  transition: all 0.3s linear;
+  background-color: #FAFAFF;
+}
+.third-screen .bottom_items:hover {
+  transition: all 0.3s linear;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }/*# sourceMappingURL=index.css.map */
