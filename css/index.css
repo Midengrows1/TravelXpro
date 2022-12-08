@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "SolidFamily";
+  src: url(/webfonts/fa-solid-900.ttf);
+}
 .text01 {
   font-weight: 700;
   font-size: 60px;
@@ -99,6 +103,10 @@
   height: 100%;
 }
 
+.main > * {
+  margin-bottom: 10%;
+}
+
 .first-screen {
   padding: 100px 0;
   display: flex;
@@ -167,7 +175,6 @@
 
 .second-screen {
   width: 100%;
-  height: 65vh;
 }
 .second-screen_content {
   width: 100%;
@@ -211,7 +218,6 @@
 
 .third-screen {
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -250,9 +256,21 @@
   border-radius: 0 0 50px 50px;
   line-height: 28px;
   transition: all 0.3s linear;
-  background-color: #FAFAFF;
+  background-color: #fafaff;
+}
+.third-screen .bottom_items span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.third-screen .bottom_items span img {
+  display: inline-block;
 }
 .third-screen .bottom_items:hover {
   transition: all 0.3s linear;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.third-screen .bottom_items:hover span {
+  color: #1f39ba;
 }/*# sourceMappingURL=index.css.map */
