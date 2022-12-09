@@ -222,7 +222,7 @@ $black04: #e5e5e5;
 
 .third-screen {
   width: 100%;
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -271,7 +271,6 @@ $black04: #e5e5e5;
         display: inline-block;
       }
     }
-    
   }
   .bottom_items:hover {
     transition: all 0.3s linear;
@@ -280,4 +279,23 @@ $black04: #e5e5e5;
       color: $blueColor02;
     }
   }
+}
+.fourth-screen {
+  width: 100%;
+  padding-bottom: 300px;
+}
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin: 40px 0px;
+}
+.swiper-wrapper {
+  width: 100%;
+  height: 50%;  
+}
+.swiper-slide {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
