@@ -308,15 +308,16 @@ $black04: #e5e5e5;
         transition: all 0.3s linear;
         background-color: #fafaff;
 
-        span {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
+    }
 
-            img {
-                display: inline-block;
-            }
+    .exploring-universal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            display: inline-block;
         }
     }
 
@@ -416,12 +417,11 @@ $black04: #e5e5e5;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding-bottom: 200px;
-        background-color: $blueColor02;
+        gap: 28px;
+        // background-color: $blueColor02;
     }
 
-    &_left {
-        background-color: red;
-    }
+   
 
     &-title {
         display: flex;
@@ -442,7 +442,7 @@ $black04: #e5e5e5;
     }
 
     .periods-icon {
-        width: 90px;
+        padding: 15px;
         background-color: $orangecolor02;
         border-radius: 10px;
         display: flex;
@@ -455,10 +455,35 @@ $black04: #e5e5e5;
         flex-direction: column;
         gap: 10px;
     }
-    .bluecolor{
-        background-color:$blueColor03;
+
+    .bluecolor {
+        background-color: $blueColor03;
     }
-    .deepbluecolor{
-        background-color:$blueColor01;
+
+    .deepbluecolor {
+        background-color: $blueColor01;
+    }
+
+    &-right {
+        position: relative;
+
+    }
+
+    &-trip {
+        width: 60%;
+        border-radius: 15px;
+        background-color:blue;
+       
+    }
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        p {
+            font-size: 8px;
+            font-weight: 400;
+
+        }
     }
 }
