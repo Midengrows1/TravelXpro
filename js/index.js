@@ -3,6 +3,7 @@ swiper = new Swiper(".swiper", {
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
+    dynamicBullets: true,
   },
   navigation: {
     nextEl: ".swiper-button-next",
