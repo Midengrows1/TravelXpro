@@ -1,50 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TravelXpro</title>
     <link rel="stylesheet" href="./css/index.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="./libs/fontawesome/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
     <section class="first_bcg">
-      <div class="wrapper">
-        <div class="wrapper__content">
-          <header class="header">
-            <h1 class="text02">Travelix <span>Pro</span></h1>
-            <div class="header__right">
-              <nav class="header__links">
-                <a href="#" class="text05">Tour's</a>
-                <a href="#" class="text05">Services</a>
-                <a href="#" class="text05">Packege</a>
-                <a href="#" class="text05">About Us</a>
-                <a href="#" class="text05">Sign In</a>
-                <button class="default-btn">Sign Up</button>
-              </nav>
+        <div class="wrapper">
+            <div class="wrapper__content">
+                <header class="header">
+                    <h1 class="text02">Travelix <span>Pro</span></h1>
+                    <div class="header__right">
+                        <nav class="header__links">
+                            <a href="#" class="text05">Tour's</a>
+                            <a href="#" class="text05">Services</a>
+                            <a href="#" class="text05">Packege</a>
+                            <a href="#" class="text05">About Us</a>
+                            <a href="#" class="text05">Sign In</a>
+                            <button class="default-btn">Sign Up</button>
+                        </nav>
+                    </div>
+                </header>
+                <main class="main">
+                    <section class="first-screen">
+                        <div class="first-screen-content">
+                            <p class="text05">Journeys of Inspiration</p>
+                            <h1 class="text01">
+                                Start Your Journey for
+                                <span>Enjoy Life.</span>
+                            </h1>
+                            <p>
+                                Travel Agency Threats and Opportunities. The
+                                Perspective of Successful Owners
+                            </p>
+                        </div>
+                        <div class="first-screen-details">
+                            <form action="#" class="first-screen-details_content">
+                                <div class="details-item">
+                                    <h3 class="text05">Location</h3>
+                                    <input type="text" placeholder="Where are you going?" />
+                                </div>
+                                <div class="details-item">
+                                    <h3 class="text05">Check in</h3>
+                                    <input type="date" placeholder="Add dates" />
+                                </div>
+                                <div class="details-item">
+                                    <h3 class="text05">Check out</h3>
+                                    <input type="date" placeholder="Add dates" />
+                                </div>
+                                <div class="details-item ages">
+                                    <h3 class="text05">Adult</h3>
+                                    <input type="text" placeholder="1" />
+                                </div>
+                                <div class="details-item ages">
+                                    <h3 class="text05">Child</h3>
+                                    <input type="text" placeholder="1" />
+                                </div>
+                                <button type="submit" class="default-btn search">
+                                    <img src="./assets/search.svg" alt="" />
+                                    Search
+                                </button>
+                            </form>
+                        </div>
+                    </section>
+                    <section class="second-screen">
+                        <div class="second-screen_content">
+                            <div class="second-screen_content_left">
+                                <img src="./assets/person second-screen.png" alt="" />
+                            </div>
+                            <div class="second-screen_content_right">
+                                <span class="text07">Why Choose Us</span>
+                                <h2 class="text02">
+                                    We care for 100% customer satifiction
+                                </h2>
+                                <p>
+                                    There was consensus, not surprisingly,
+                                    that quality traditional travel agencies
+                                    provide value for money. However, this
+                                    was accompanied by a high level of
+                                    concern that many consumers
+                                </p>
+                                <div class="second-right-content">
+                                    <div class="content-left">
+                                        <ul>
+                                            <li>Budget Friendly</li>
+                                            <li>Safety Management</li>
+                                            <li>Customise Pack</li>
+                                        </ul>
+                                    </div>
+                                    <div class="content-right">
+                                        <ul>
+                                            <li>Expert Team</li>
+                                            <li>Payment Flexibility</li>
+                                            <li>Friendly Unit</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="default-btn">
+                                    Explore More
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="third-screen">
+                        <div class="third-screen_top">
+                            <span class="text061">Best Services</span>
+                            <h2 class="text02">Our Services</h2>
+                            <p class="text061">
+                                There was consensus, not surprisingly, that
+                                quality traditional travel agencies provide
+                                value for money. However, this was
+                                accompanied by a high level of concern that
+                                many consumers
+                            </p>
+                        </div>
+                        <div class="third-screen_bottom">
+                            <div class="third-screen_bottom-container">
+                                <div class="bottom_items">
+                                    <img src="/assets/HOTEL.svg" alt="" />
+                                    <h3 class="text03">Book Hotel</h3>
+                                    <p>
+                                        In-depth interviews with 19 owners
+                                        of exceptionally successful US-based
+                                        conventional travel agencies
+                                    </p>
+                                    <span class="text05 exploring-universal">Explore More
+                                        <img src="./assets/arrow-right.svg" alt="" /></span>
+                                </div>
+                                <div class="bottom_items">
+                                    <img src="/assets/TAXI.svg" alt="" />
+                                    <h3 class="text03">Book Taxi</h3>
+                                    <p>
+                                        In-depth interviews with 19 owners
+                                        of exceptionally successful US-based
+                                        conventional travel agencies
+                                    </p>
+                                    <span class="text05">Explore More
+                                        <img src="./assets/arrow-right.svg" alt="" />
+                                    </span>
+                                </div>
+                                <div class="bottom_items">
+                                    <img src="/assets/AIRCRAFT.svg" alt="" />
+                                    <h3 class="text03">Book Plane</h3>
+                                    <p>
+                                        In-depth interviews with 19 owners
+                                        of exceptionally successful US-based
+                                        conventional travel agencies
+                                    </p>
+                                    <span class="text05">Explore More
+                                        <img src="./assets/arrow-right.svg" alt="" /></span>
+                                </div>
+                                <div class="bottom_items">
+                                    <img src="/assets/GLOBALTOUR.svg" alt="" />
+                                    <h3 class="text03">Global Tour</h3>
+                                    <p>
+                                        In-depth interviews with 19 owners
+                                        of exceptionally successful US-based
+                                        conventional travel agencies
+                                    </p>
+                                    <span class="text05">Explore More
+                                        <svg width="35" height="20" viewBox="0 0 35 20" id="icon-name"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M33.8839 10.8839C34.372 10.3957 34.372 9.60427 33.8839 9.11612L25.9289 1.16117C25.4408 0.67301 24.6493 0.67301 24.1612 1.16117C23.673 1.64932 23.673 2.44078 24.1612 2.92893L31.2322 10L24.1612 17.0711C23.673 17.5592 23.673 18.3507 24.1612 18.8388C24.6493 19.327 25.4408 19.327 25.9289 18.8388L33.8839 10.8839ZM0 11.25H33V8.75H0V11.25Z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="fourth-screen">
+                        <div class="third-screen_top">
+                            <span class="text061">Recomanded Packages</span>
+                            <h2 class="text02">Best Value Trips</h2>
+                            <p class="text061">
+                                There was consensus, not surprisingly, that
+                                quality traditional travel agencies provide
+                                value for money. However, this was
+                                accompanied by a high level of concern that
+                                many consumers
+                            </p>
+                        </div>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./assets/first-bcg.png" alt="" />
+                                    <div class="swiper-text">
+                                        <h3>
+                                            Trip to Thailand
+                                            <span>250$</span>
+                                        </h3>
+                                        <p>
+                                            Join the leader in smallship
+                                            cruising on the Great Lakes,
+                                        </p>
+                                        <div class="swiper-rating">
+                                            <div class="swiper-stars">
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                            </div>
+                                            <span>3.25k Review</span>
+                                        </div>
+                                        <button class="default-btn">
+                                            View Details
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/boat-image.png" alt="" />
+                                    <div class="swiper-text">
+                                        <h3>
+                                            Trip to Thailand
+                                            <span>250$</span>
+                                        </h3>
+                                        <p>
+                                            Join the leader in smallship
+                                            cruising on the Great Lakes,
+                                        </p>
+                                        <div class="swiper-rating">
+                                            <div class="swiper-stars">
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                            </div>
+                                            <span>3.25k Review</span>
+                                        </div>
+                                        <button class="default-btn">
+                                            View Details
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/mountains.png" alt="" />
+                                    <div class="swiper-text">
+                                        <h3>
+                                            Trip to Thailand
+                                            <span>250$</span>
+                                        </h3>
+                                        <p>
+                                            Join the leader in smallship
+                                            cruising on the Great Lakes,
+                                        </p>
+                                        <div class="swiper-rating">
+                                            <div class="swiper-stars">
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                            </div>
+                                            <span>3.25k Review</span>
+                                        </div>
+                                        <button class="default-btn">
+                                            View Details
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/seaside.png" alt="" />
+                                    <div class="swiper-text">
+                                        <h3>
+                                            Trip to Thailand
+                                            <span>250$</span>
+                                        </h3>
+                                        <p>
+                                            Join the leader in smallship
+                                            cruising on the Great Lakes,
+                                        </p>
+                                        <div class="swiper-rating">
+                                            <div class="swiper-stars">
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                            </div>
+                                            <span>3.25k Review</span>
+                                        </div>
+                                        <button class="default-btn">
+                                            View Details
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/boat-image.png" alt="" />
+                                    <div class="swiper-text">
+                                        <h3>
+                                            Trip to Thailand
+                                            <span>250$</span>
+                                        </h3>
+                                        <p>
+                                            Join the leader in smallship
+                                            cruising on the Great Lakes,
+                                        </p>
+                                        <div class="swiper-rating">
+                                            <div class="swiper-stars">
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                            </div>
+                                            <span>3.25k Review</span>
+                                        </div>
+                                        <button class="default-btn">
+                                            View Details
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/first-bcg.png" alt="" />
+                                    <div class="swiper-text">
+                                        <h3>
+                                            Trip to Thailand
+                                            <span>250$</span>
+                                        </h3>
+                                        <p>
+                                            Join the leader in smallship
+                                            cruising on the Great Lakes,
+                                        </p>
+                                        <div class="swiper-rating">
+                                            <div class="swiper-stars">
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                            </div>
+                                            <span>3.25k Review</span>
+                                        </div>
+                                        <button class="default-btn">
+                                            View Details
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/mountains.png" alt="" />
+                                    <div class="swiper-text">
+                                        <h3>
+                                            Trip to Thailand
+                                            <span>250$</span>
+                                        </h3>
+                                        <p>
+                                            Join the leader in smallship
+                                            cruising on the Great Lakes,
+                                        </p>
+                                        <div class="swiper-rating">
+                                            <div class="swiper-stars">
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                            </div>
+                                            <span>3.25k Review</span>
+                                        </div>
+                                        <button class="default-btn">
+                                            View Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </section>
+                    <section class="fifth-screen">
+                        <div class="fifth-screen_content">
+                            <div class="fifth-screen_left">
+                                <div class="fifth-screen-title">
+                                    <p class="text05">Easy and Fast</p>
+                                    <h3 class="text02">Book Next Trip in 3 Easy Steps</h3>
+                                    <p class="text06">
+                                        There was consensus, not
+                                        surprisingly, that quality
+                                        traditional travel agencies provide
+                                        value for money. However, this was
+                                        accompanied by a high level of
+                                        concern that many consumers
+                                    </p>
+                                </div>
+                                <div class="fifth-screen-periods">
+                                    <div class="periods-item destination">
+                                        <div class="periods-icon orange">
+                                            <img src="./assets/flag.svg" alt="">
+                                        </div>
+                                        <div class="periods-content">
+                                            <h4 class="text04">Choose Destionation</h4>
+                                            <p class="text06">
+                                                There was consensus, not
+                                                surprisingly, that quality
+                                                traditional travel agencies
+                                                provide value.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="periods-item payment">
+                                        <div class="periods-icon bluecolor">
+                                            <img src="./assets/wallet.svg" alt="">
+                                        </div>
+                                        <div class="periods-content">
+                                            <h4 class="text04">Make Payment</h4>
+                                            <p class="text06">
+                                                There was consensus, not
+                                                surprisingly, that quality
+                                                traditional travel agencies
+                                                provide value.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="periods-item airoport">
+                                        <div class="periods-icon deepbluecolor">
+                                            <img src="./assets/Calendar.svg" alt="">
+                                        </div>
+                                        <div class="periods-content">
+                                            <h4 class="text04">Reach Airport on Selected Date</h4>
+                                            <p class="text06">
+                                                There was consensus, not
+                                                surprisingly, that quality
+                                                traditional travel agencies
+                                                provide value.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fifth-screen_right">
+                                <img src="./assets/thailand-image.png" alt="">
+                                <div class="fifth-screen-trip">
+                                    <div class="fifth-screen-content">
+                                        <h4>Trip to Thailand</h4>
+                                        <p>Join the leader in smallship cruising on the Great Lakes,</p>
+                                        <div class="swiper-rating">
+                                            <div class="swiper-stars">
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                                <img src="./assets/star.svg" alt="star" />
+                                            </div>
+                                            <span>3.25k Review</span>
+                                        </div>
+                                    </div>
+                                    <span class="text05 exploring-universal">Explore More
+                                        <img src="./assets/arrow-right.svg" alt="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
             </div>
-          </header>
-          <main class="main">
-            <section class="first-screen">
-              <div class="first-screen-content">
-                <p class="text05">Journeys of Inspiration</p>
-                <h1 class="text01">
-                  Start Your Journey for <span>Enjoy Life.</span>
-                </h1>
-                <p>
-                  Travel Agency Threats and Opportunities. The Perspective of
-                  Successful Owners
-                </p>
-              </div>
-              <div class="first-screen-details">
-                <div class="first-screen-details_content">
-                    
-                </div>
-              </div>
-            </section>
-          </main>
         </div>
-      </div>
     </section>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src=".//js/index.js"></script>
+</body>
+
 </html>
